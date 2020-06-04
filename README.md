@@ -32,10 +32,10 @@ To run the code in the tutorial locally, it is recommended,
 - install Anaconda.  
 
 The following python packages are required to run the code. 
-- matplotlib==3.1.1
-- numpy==1.17.2
-- seaborn==0.9.0
-- tensorflow==2.1.0
+- `matplotlib==3.1.1`
+- `numpy==1.17.2`
+- `seaborn==0.9.0`
+- `tensorflow==2.1.0`
 
 ---
 
@@ -61,19 +61,10 @@ conda activate rm
 pip install -r ./requirements.txt
 ```
 
-4. Train and evaluate a normal architecture.
+4. Train and evaluate a normal or a Raw Zero-Shot classifier.
 
 ```bash
-python -u run_model.py [ARGS] > run.txt
-```
-
-5. Train and evaluate Raw Zero-shot architecture for all CIFAR-10 labels.
-
-```bash
-for label in {0..9}
-do
-    python -u run_model.py -r -xl $label [ARGS] > run.txt
-done     
+python -u code/run.py [ARGS] > run.txt
 ```
 
 <!-- 5. Calculate DBI and Amalgam Metrics for the Raw Zero-Shot architecture including the 2D visualisation of the _'n-1'_ soft labels.
