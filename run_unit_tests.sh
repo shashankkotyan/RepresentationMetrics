@@ -8,7 +8,7 @@ for family in 0 1
         do
             for xl in 0
             do
-                python -u code/run.py $attack -f $family -d $dataset -m $model --samples 1 --epochs 2 -v 
+                python -u code/run.py $attack -f $family -d $dataset -m $model --epochs 2 -v 
             done
         done
     done
