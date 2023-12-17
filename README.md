@@ -2,24 +2,28 @@
 
 This GitHub repository contains the official code for the paper,
 
-> [Representation Quality Explains Adversarial Attacks](https://arxiv.org/abs/1906.06627)\
-> Danilo Vasconcellos Vargas, Shashank Kotyan, Moe Matsuki\
-> _arXiv:1906.06627_.
+> [Transferability of features for neural networks links to adversarial attacks and defences](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266060)\
+> Shashank Kotyan, Moe Matsuki and Danilo Vasconcellos Vargas\
+> PLOS One (2022).
 
 ## Citation
 
 If this work helps your research and/or project in anyway, please cite:
 
 ```bibtex
-@article{vargas2019representation,
-  title   = {Representation Quality Explains Adversarial Attacks},
-  author  = {Vargas, Danilo Vasconcellos and Kotyan, Shashank and Matsuki, Moe},
-  journal = {arXiv preprint arXiv:1906.06627},
-  year    = {2019}
+@article{kotyan2022transferability,
+  title={Transferability of features for neural networks links to adversarial attacks and defences},
+  author={Kotyan, Shashank and Matsuki, Moe and Vargas, Danilo Vasconcellos},
+  journal={PloS one},
+  volume={17},
+  number={4},
+  pages={e0266060},
+  year={2022},
+  publisher={Public Library of Science San Francisco, CA USA}
 }
 ```
 
-## Testing Environment 
+## Testing Environment
 
 The code is tested on Ubuntu 18.04.3 with Python 3.7.4.
 
